@@ -15,7 +15,7 @@ class Index extends Component {
   render() {
     return (
       <Layout {...this.props}>
-        <h2 className="bg-blue-light text-white text-center h-16 w-full">
+        <h2 className="bg-blue-light text-white text-center h-16 pt-4 w-full font-thin uppercase">
           Base Project Next 8.x
         </h2>
       </Layout>
