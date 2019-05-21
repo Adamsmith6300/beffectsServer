@@ -15,39 +15,11 @@ const uri = "http://localhost:3000/graphql";
 
 const imports = {};
 
-const actionTypes = {
-  SEND_DATA: "SEND_DATA"
-};
+const actionTypes = {};
 
-const actions = {
-  sendData: data => {
-    console.log(data);
-    return dispatch => {
-      const link = new HttpLink({ uri, fetch: fetch });
-      const operation = {
-        query: query.sendData,
-        variables: { ...data }
-      };
+const actions = {};
 
-      makePromise(execute(link, operation))
-        .then(data => {
-          dispatch({
-            type: actionTypes.SEND_DATA,
-            data: data
-          });
-        })
-        .catch(error => console.log(error));
-    };
-  }
-};
-
-const query = {
-  sendData: gql`
-    query($name: String, $email: String, $message: String) {
-      sendData(input: { name: $name, email: $email, message: $message })
-    }
-  `
-};
+const query = {};
 
 const mutation = {};
 

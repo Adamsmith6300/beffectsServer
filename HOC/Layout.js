@@ -18,13 +18,11 @@ class Layout extends Component {
 
   render() {
     return (
-      <div className="ga-background pt-32">
+      <div className="">
         <Head>
-          <title>Green Affiliates</title>
+          <title>Base Project Next 8</title>
         </Head>
-        {this.props.misc.data
-          ? alert(this.props.misc.data.data.sendData)
-          : null}
+
         {this.props.children}
       </div>
     );
