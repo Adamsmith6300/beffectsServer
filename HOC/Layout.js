@@ -1,8 +1,5 @@
 /**************************************/
-/*Our highest ordered component. This
-component wraps each page. Naturally this
-component has the navigation bar and the
-login form.*/
+/*Our highest ordered component.*/
 /**************************************/
 
 import "../scss/home.scss";
@@ -12,15 +9,11 @@ import actions from "../store/actions";
 import Head from "next/head";
 
 class Layout extends Component {
-  componentDidMount() {}
-
-  componentDidUpdate() {}
-
   render() {
     return (
       <div className="">
         <Head>
-          <title>Base Project Next 8</title>
+          <title>Babylonjs Effects</title>
         </Head>
 
         {this.props.children}

@@ -1,5 +1,5 @@
 /*******************************************/
-/*Main page, Renders all home videos*/
+/*Main page*/
 /******************************************/
 
 import React, { Component } from "react";
@@ -10,14 +10,12 @@ import actions from "../store/actions";
 import Layout from "../HOC/Layout";
 
 class Index extends Component {
-  componentDidMount() {}
-
   render() {
     return (
       <Layout {...this.props}>
-        <h2 className="bg-blue-light text-white text-center h-16 pt-4 w-full font-thin uppercase">
-          Base Project Next 8.x
-        </h2>
+        <div className="text-center w-screen h-screen">
+          <canvas className="w-full h-full" id="renderCanvas"></canvas>
+        </div>
       </Layout>
     );
   }

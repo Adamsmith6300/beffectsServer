@@ -29,6 +29,12 @@ export default class MyDocument extends Document {
               </h3>
             </div>
           </noscript>
+
+          <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/babylonjs/4.0.3/babylon.js"
+            type="text/javascript"
+          ></script>
+          <script src="../static/effects.js"></script>
         </body>
       </html>
     );
