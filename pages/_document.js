@@ -31,10 +31,10 @@ export default class MyDocument extends Document {
           </noscript>
 
           <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/babylonjs/4.0.3/babylon.js"
+            src="https://preview.babylonjs.com/babylon.max.js"
             type="text/javascript"
           ></script>
-          <script src="../static/effects.js"></script>
+          <script src="../static/lavaDev/effects.js"></script>
         </body>
       </html>
     );
