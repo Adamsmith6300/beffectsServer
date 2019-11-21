@@ -34,7 +34,8 @@ export default class MyDocument extends Document {
             src="https://preview.babylonjs.com/babylon.max.js"
             type="text/javascript"
           ></script>
-          <script src="../static/lavaDev/effects.js"></script>
+          <script src="../static/lib/effects.js"></script>
+          <script src="../static/lib/example.js"></script>
         </body>
       </html>
     );

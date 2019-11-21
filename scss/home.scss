@@ -32,3 +32,18 @@ body {
 * {
   box-sizing: border-box;
 }
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  padding: 20px 10%;
+}
+.menu li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
