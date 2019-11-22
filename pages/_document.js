@@ -34,8 +34,11 @@ export default class MyDocument extends Document {
             src="https://preview.babylonjs.com/babylon.max.js"
             type="text/javascript"
           ></script>
-          <script src="../static/lib/effects.js"></script>
-          <script src="../static/lib/example.js"></script>
+          <script src="../static/BabylonJS3DEffects/effects.js"></script>
+          {/* <script src="../static/BabylonJS3DEffects/example.js"></script> */}
+          {/* <script src="../static/BabylonJS3DEffects/lavaExample.js"></script> */}
+          <script src="../static/BabylonJS3DEffects/smokeExample.js"></script>
+          {/* <script src="../static/BabylonJS3DEffects/snowExample.js"></script> */}
         </body>
       </html>
     );
